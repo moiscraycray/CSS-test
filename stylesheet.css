@@ -1,0 +1,47 @@
+@import "bootstrap";
+
+body {
+  background-color: black;
+}
+
+.container img {
+   width: 100%;
+}
+
+.text-white {
+  color: white;
+  text-align: center;
+  font-family: "PT Sans";
+  font-weight: bold;
+}
+
+.mug-headings {
+  font-size: 18px;
+  margin-top: 7px;
+  margin-bottom: 16px;
+  line-height: 23px;
+}
+
+@media (min-width: 576px) {
+  .large-1 {
+    font-size: 24px;
+    margin-top: 14px;
+    margin-bottom: 16px;
+    line-height: 31px;
+  }
+
+  .first-mug {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .large-1 {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 43px;
+    line-height: 52px;
+  }
+
+}
